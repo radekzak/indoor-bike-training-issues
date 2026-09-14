@@ -1,7 +1,7 @@
 # Indoor Bike Training — Issue Tracker
 
 Public bug tracker and feature request board for the
-[Indoor Bike Training](https://github.com/radekzak/indoor_bike_training) app,
+Indoor Bike Training app,
 a Flutter app for structured indoor cycling workouts.
 
 This repository does not contain any source code — it exists solely so
