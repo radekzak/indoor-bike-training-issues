@@ -10,8 +10,8 @@ in this tracker.
 
 The app has four tabs: **Ride**, **Routes**, **Workouts**, and **Settings**.
 Everything is stored on your device — there are no accounts and no cloud
-sync, so the app works fully offline except for Bluetooth (to your trainer)
-and, optionally, Strava.
+sync, so the app works fully offline except for Bluetooth (to your trainer
+and heart rate monitor).
 
 ### Connecting your trainer and heart rate monitor
 
@@ -135,16 +135,9 @@ real.
 
 **What you can do with a TCX file**: it's a standard format accepted for
 manual upload by most training/fitness platforms, including **Garmin
-Connect**, **Strava**, **TrainingPeaks**, and **intervals.icu** — upload it
-there to log the ride, analyze power/HR curves, or add it to your training
-history on that platform.
-
-**Direct Strava upload**: the app also has a built-in "Send to Strava"
-option that uploads the same data straight to your Strava account without
-handling a file yourself, via Strava's API. This requires connecting your
-own Strava account in **Settings → Strava** first. Note that this feature
-may not be turned on in every build of the app — if you don't see a
-"Strava" option in Settings, use the manual TCX export/upload instead.
+Connect**, **TrainingPeaks**, and **intervals.icu** — upload it there to
+log the ride, analyze power/HR curves, or add it to your training history
+on that platform.
 
 ## Backing up and restoring your data
 
@@ -179,17 +172,16 @@ details, including:
 - **Time in power zones** (if FTP is set) and **time in heart rate zones**
   (if birth year is set), using the standard 7-zone power model and a
   5-zone heart rate model.
-- The same Export TCX (and, if enabled, Send to Strava) actions available
-  from the results screen.
+- The same Export TCX action available from the results screen.
 
 ## Good to know
 
 - The app is fully offline-capable — the only network use is Bluetooth to
-  your trainer/HR monitor, and, only if you choose to use it, Strava.
+  your trainer/HR monitor.
 - There's a single rider profile per install (one weight, one FTP, one
   birth year) — no multiple bike or rider profiles, and no accounts/login.
 - The app uses one fixed dark theme; there's no light-mode toggle.
 - The screen is kept awake automatically while you're riding.
 - There's no leaderboard, best-effort, or personal-record tracking built
-  in — use an exported TCX file on a platform like Strava if you want
+  in — use an exported TCX file on another training platform if you want
   that.
